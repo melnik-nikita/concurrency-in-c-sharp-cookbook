@@ -8,3 +8,4 @@
 - **Reactive programming** - a declarative style of programming where the application reacts to events
 - **Hot observable** - is a stream of events that is always going on, and if there are no subscribers when the events come in, they are lost.
 - **Cold observable** - is an observable that doesn't have incoming events all the time. A cold observable will react to a subscription by starting the sequence of events.
+- **Asynchronous streams** - are a way to asynchronously receive multiple data items. They are built on asynchronous enumerables (IAsyncEnumerable<T>).
