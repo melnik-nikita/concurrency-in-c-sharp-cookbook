@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter02AsyncBasics", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter03AsynchronousStreams", "src\Chapter03AsynchronousStreams\Chapter03AsynchronousStreams.csproj", "{0C4F9C9F-DEF8-4B66-93F7-937936094359}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter04ParallelProcessing", "src\Chapter04ParallelProcessing\Chapter04ParallelProcessing.csproj", "{A6B69F4C-5698-4DFF-ADAF-817F090F898D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{C36A137B-3706-412D-977E-6F4399A49AAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,14 @@ Global
 		{0C4F9C9F-DEF8-4B66-93F7-937936094359}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C4F9C9F-DEF8-4B66-93F7-937936094359}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C4F9C9F-DEF8-4B66-93F7-937936094359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6B69F4C-5698-4DFF-ADAF-817F090F898D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6B69F4C-5698-4DFF-ADAF-817F090F898D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6B69F4C-5698-4DFF-ADAF-817F090F898D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6B69F4C-5698-4DFF-ADAF-817F090F898D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36A137B-3706-412D-977E-6F4399A49AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36A137B-3706-412D-977E-6F4399A49AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36A137B-3706-412D-977E-6F4399A49AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36A137B-3706-412D-977E-6F4399A49AAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +57,8 @@ Global
 		{095650BA-B608-403E-B50F-66E1A8E2E542} = {C730C971-C508-4286-9E6A-32A0554C526C}
 		{44C43D11-280B-40A4-A4F1-89C978DB8036} = {C730C971-C508-4286-9E6A-32A0554C526C}
 		{0C4F9C9F-DEF8-4B66-93F7-937936094359} = {C730C971-C508-4286-9E6A-32A0554C526C}
+		{A6B69F4C-5698-4DFF-ADAF-817F090F898D} = {C730C971-C508-4286-9E6A-32A0554C526C}
+		{C36A137B-3706-412D-977E-6F4399A49AAF} = {C730C971-C508-4286-9E6A-32A0554C526C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BEB932F-C999-4E18-8DF9-71E466154B06}
